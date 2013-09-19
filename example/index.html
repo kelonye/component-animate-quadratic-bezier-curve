@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='../public/public.css' rel='stylesheet' media='screen'>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script src='../public/public.js'></script>
+    <script type='text/javascript'>
+
+      var canvas = document.createElement('canvas');
+      canvas.width = 300.5;
+      canvas.height = 300.5;
+      document.body.appendChild(canvas);
+
+      var ctx = canvas.getContext('2d');
+      ctx.strokeStyle = '#aaa';
+      ctx.moveTo(20.5, 200.5);
+      ctx.quadraticCurveTo(140.5, 20.5, 280.5, 280.5);
+      ctx.stroke();
+
+      var animation = require('component-animate-quadratic-bezier-curve');
+      animation(20.5, 200.5, 140.5, 20.5, 280.5, 280.5)
+        .color('deepskyblue')
+        .draw(canvas);
+
+    </script>
+  </body>
+</html>

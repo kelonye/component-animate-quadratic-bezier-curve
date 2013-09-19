@@ -1,0 +1,8 @@
+{
+  "name": "component-animate-quadratic-bezier-curve",
+  "version": "0.0.1",
+  "dependencies": {
+    "component-hooks": "*"
+  },
+  "license": "MIT"
+}
