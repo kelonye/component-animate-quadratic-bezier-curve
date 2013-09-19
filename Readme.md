@@ -66,6 +66,25 @@ See [demo](http://component-kelonye.rhcloud.com/#/523b4eef8acdd27159000004)
 
     $ make example
 
+## Api
+
+### animation([number,...])
+
+  Initialize a new Animation with `ax`, `ay`, `bx`, `by`, `cx` and`cy` as
+
+  ```javascript
+  ctx.moveTo(ax, ay);
+  ctx.quadraticCurveTo(bx, by, cx, cy);
+  ```
+
+### Animation#color(string)
+
+  Set the stroke style, which the animation will use
+
+### Animation#draw(canvas)
+
+  Initialize animation using `canvas` properties
+
 License
 ---
 
