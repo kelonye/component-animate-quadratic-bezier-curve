@@ -62,6 +62,8 @@ yields ...
 Example
 ---
 
+See [demo](http://component-kelonye.rhcloud.com/#/523b4eef8acdd27159000004)
+
     $ make example
 
 License
