@@ -16,7 +16,8 @@ Usage
   var ctx = canvas.getContext('2d');
   ctx.moveTo(20.5, 200.5);
   ctx.quadraticCurveTo(140.5, 20.5, 280.5, 280.5);
-
+  ctx.stroke();
+  
   var animation = require('component-animate-quadratic-bezier-curve');
   animation(20.5, 200.5, 140.5, 20.5, 280.5, 280.5)
     .color('deepskyblue')
@@ -36,7 +37,7 @@ So,
   var ctx = canvas.getContext('2d');
   ctx.moveTo(20.5, 200.5);
   ctx.quadraticCurveTo(140.5, 20.5, 280.5, 280.5);
-
+  ctx.stroke();
 
 ```
 
@@ -62,7 +63,7 @@ yields ...
 Example
 ---
 
-See [demo](http://component-kelonye.rhcloud.com/#/523b4eef8acdd27159000004)
+See [demo](http://component-kelonye.rhcloud.com/#/523b52ff8acdd27159000005)
 
     $ make example
 
