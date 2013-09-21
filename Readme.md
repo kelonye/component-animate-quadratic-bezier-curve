@@ -69,7 +69,7 @@ See [demo](http://component-kelonye.rhcloud.com/#/523dcc0e12a4b7fa29000009)
 
 ## Api
 
-### animation([number,...])
+### animation(ax, ay, bx, by, cx, cy)
 
   Initialize a new Animation with `ax`, `ay`, `bx`, `by`, `cx` and`cy` as
 
