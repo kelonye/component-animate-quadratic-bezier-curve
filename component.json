@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "component/inherit": "*",
-    "component/raf": "*"
+    "component/raf": "*",
+    "kelonye/component-grid": "*"
   },
   "main": "lib/index.js",
   "scripts": [
