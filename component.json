@@ -2,9 +2,9 @@
   "name": "component-animate-quadratic-bezier-curve",
   "version": "0.0.1",
   "dependencies": {
-    "component/inherit": "*",
-    "component/raf": "*",
-    "kelonye/component-grid": "*"
+    "component/inherit": "0.0.2",
+    "component/raf": "1.0.0",
+    "kelonye/component-grid": "0.0.1"
   },
   "main": "lib/index.js",
   "scripts": [
