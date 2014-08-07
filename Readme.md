@@ -63,7 +63,7 @@ yields ...
 Example
 ---
 
-See [demo](http://component-kelonye.rhcloud.com/#/523dcc0e12a4b7fa29000009)
+See [demo](http://component.herokuapp.com/#/53e3c8d77d65b41900215c34)
 
     $ make example
 
