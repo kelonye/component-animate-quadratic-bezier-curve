@@ -78,6 +78,21 @@ See [demo](http://component.herokuapp.com/#/53e3c8d77d65b41900215c34)
   ctx.quadraticCurveTo(bx, by, cx, cy);
   ```
 
+### Animation#ease(function)
+
+  Apply easing `function`. For example,
+
+  ```javascript
+    var animation = require('component-animate-quadratic-bezier-curve');
+    animation(20.5, 200.5, 140.5, 20.5, 280.5, 280.5)
+      .ease(function(t, b, c, d) {
+        t /= d;
+        return c*t*t*t*t*t + b;
+      })
+      .color('deepskyblue')
+      .draw(canvas);
+  ```
+
 ### Animation#color(string)
 
   Set the stroke style, which the animation will use
