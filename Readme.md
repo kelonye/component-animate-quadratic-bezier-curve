@@ -63,7 +63,7 @@ yields ...
 Example
 ---
 
-See [demo](http://component.herokuapp.com/#/53e3c8d77d65b41900215c34)
+See [demo](http://component.herokuapp.com/#/5415b98b0d29961900b7fdcb)
 
     $ make example
 
