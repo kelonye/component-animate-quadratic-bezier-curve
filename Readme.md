@@ -14,14 +14,20 @@ Usage
   document.body.appendChild(canvas);
 
   var ctx = canvas.getContext('2d');
+  ctx.strokeStyle = '#aaa';
   ctx.moveTo(20.5, 200.5);
   ctx.quadraticCurveTo(140.5, 20.5, 280.5, 280.5);
   ctx.stroke();
-  
+
   var animation = require('component-animate-quadratic-bezier-curve');
   animation(20.5, 200.5, 140.5, 20.5, 280.5, 280.5)
+    .ease(function(t, b, c, d) {
+      t /= d;
+      return c*t*t*t*t*t + b;
+    })
     .color('deepskyblue')
     .draw(canvas);
+
 
 ```
 
@@ -48,8 +54,13 @@ yields ...
 then,
 
 ```javascript
+
   var animation = require('component-animate-quadratic-bezier-curve');
   animation(20.5, 200.5, 140.5, 20.5, 280.5, 280.5)
+    .ease(function(t, b, c, d) {
+      t /= d;
+      return c*t*t*t*t*t + b;
+    })
     .color('deepskyblue')
     .draw(canvas);
 
